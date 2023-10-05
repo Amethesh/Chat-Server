@@ -5,8 +5,10 @@ const http = require("http");
 const cors = require("cors");
 const { Server } = require("socket.io");
 
-const PORT = process.env.PORT || 3001;
-const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
+// const PORT = process.env.PORT || 3001;
+const PORT = 10000;
+// const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
+const CLIENT_URL = "https://cheerful-douhua-a16b54.netlify.app/";
 
 app.use(cors());
 
