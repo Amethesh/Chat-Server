@@ -8,9 +8,7 @@ const { Server } = require("socket.io");
 // const PORT = process.env.PORT || 3001;
 const PORT = 10000;
 // const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
-const CLIENT_URL = "https://cheerful-douhua-a16b54.netlify.app/";
-// Allow requests from your Netlify domain
-response.setHeader("Access-Control-Allow-Origin", "https://cheerful-douhua-a16b54.netlify.app");
+const CLIENT_URL = "https://cheerful-douhua-a16b54.netlify.app";
 
 app.use(cors());
 
